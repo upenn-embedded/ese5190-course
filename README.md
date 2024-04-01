@@ -1,1 +1,1 @@
-# ese5180-course
+# ESE 5180:  IoT Wireless, Security, & Scaling
