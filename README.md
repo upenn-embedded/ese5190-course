@@ -1,1 +1,1 @@
-# ESE 5180:  IoT Wireless, Security, & Scaling
+# ESE 5190: Smart Devices
