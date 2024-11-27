@@ -1,0 +1,88 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #374151;
+    /* Charcoal Gray */
+    background-color: #F3F4F6;
+    /* Soft Gray */
+}
+
+/* Header Styles */
+header {
+    background-color: #1E3A8A;
+    /* Deep Blue */
+    color: #FFFFFF;
+    /* White text */
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Navigation Links */
+nav a {
+    color: #60A5FA;
+    /* Light Blue */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #F97316;
+    /* Bright Orange */
+    text-decoration: underline;
+}
+
+/* Section Titles */
+section h2 {
+    color: #1E3A8A;
+    /* Deep Blue */
+    border-bottom: 2px solid #60A5FA;
+    /* Light Blue */
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black */
+    color: #FFFFFF;
+    /* White */
+    border: none;
+    border-radius: 50%;
+}
+
+.carousel-btn:hover {
+    background-color: #F97316;
+    /* Bright Orange */
+}
+
+/* Footer */
+footer {
+    background-color: #1E3A8A;
+    /* Deep Blue */
+    color: #FFFFFF;
+    /* White */
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
