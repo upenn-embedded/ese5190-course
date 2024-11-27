@@ -86,3 +86,20 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
+
+
+.responsive-image-container {
+    width: 100%;
+    /* Take full width of the parent container */
+    max-width: 600px;
+    /* Optional: Limit the maximum width */
+    margin: 0 auto;
+    /* Center the image container */
+}
+
+.responsive-image-container img {
+    width: 100%;
+    /* Scale image to fit the container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
